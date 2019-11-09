@@ -1,22 +1,27 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
+#movies img,
+#movie img {
+  width: 100%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.brand-text {
+  font-size: 2rem;
 }
+#react-logo {
+  color: #00d8ff;
+}
+.navbar-header{
+  color: #fff;
+  font-size: 2rem;
+}
+#imdb-logo {
+  color: #f5de50;
+}
+@media (min-width: 960px) {
+  #movies .col-md-3 .well {
+    height: 390px;
+  }
 
-.App-link {
-  color: #09d3ac;
+  #movies .col-md-3 img {
+    height: 240px;
+  }
 }
